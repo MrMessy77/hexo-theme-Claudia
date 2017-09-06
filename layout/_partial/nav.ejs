@@ -1,9 +1,10 @@
+<!-- 导航栏 -->
 <header id="navbar" class="overflow-hidden">
   <div class="container">
     <nav class="nav">
          <div class="nav-left">
             <a href="<%- config.root %>" class="nav-item" style="font-size: 20px;">
-              <span class="logo"><%- theme.user_name || ''%></span>'s Blog
+              <span class="logo"><%- theme.user_name || ''%></span><% __('blog') %>
             </a>
          </div>
         <div class="nav-center is-hidden position-relative" id="search_container">
