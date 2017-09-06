@@ -21,7 +21,7 @@
             </a>
             <% for (var menu in theme.menu) { %>
             <a class="nav-item" href="<%- url_for(theme.menu[menu])%>">
-                <%- menu %>
+                <% __(menu) %>
             </a>
             <% } %>
         </div>
