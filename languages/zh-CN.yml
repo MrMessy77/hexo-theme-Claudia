@@ -19,7 +19,8 @@ recent_posts: 最新文章
 newer: Newer
 older: Older
 share: Share
-powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+post_number: 文章数
+tag_number: 标签数
