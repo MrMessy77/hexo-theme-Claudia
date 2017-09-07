@@ -8,7 +8,7 @@ menu:
 rss: /atom.xml
 
 #个人信息
-user_name: MrMessy
+user_name: 朱剑波
 user_avatar: https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-shadow-circle-512.png
 user_location: 常州
 user_description: "勿忘初心，心如止水"
@@ -27,7 +27,6 @@ linkedin_url:
 #copyright
 theme_url: https://github.com/Haojen/hexo-theme-Claudia
 theme: Haojen Ma
-copyright: 朱剑波
 copyright_date: 2017
 copyright_url: https://github.com/MrMessy77
 power: hexo

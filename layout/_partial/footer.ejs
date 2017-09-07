@@ -17,7 +17,7 @@
         <!--请您保留作者署名, 主题制作来之不易-->
         Theme by <a href=<%= theme.theme_url%>><%= theme.theme%></a>
         <br>
-        Copyright © <a href=<%= theme.copyright_url%> target="_blank"><%= theme.copyright %></a> <%= theme.copyright_date%>
+        Copyright © <a href=<%= theme.copyright_url%> target="_blank"><%= theme.user_name || config.author %></a> <%= theme.copyright_date%>
         <br>
         Powered by <a href=<%= theme.power_url%> target="_blank"><%= theme.power%></a>
       </div>
