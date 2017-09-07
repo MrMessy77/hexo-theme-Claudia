@@ -1,7 +1,7 @@
-# Header
+#导航栏
 menu:
   home: /
-  myWork: /works
+  #myWork: /works
   about: /about
   #Tags: /tags
 
@@ -16,13 +16,22 @@ user_contact: mrmessy0626@gmail.com
 user_introduction: "swift,js开发者"
 
 #社交信息
-github_username: MrMessy77
-jianshu_username: MrMessy
-twitter_username:
-weibo_username: 果冻超人
-zhihu_username:
-facebook_username:
-linkedin_username:
+github_url: https://github.com/MrMessy77
+jianshu_url: http://www.jianshu.com/u/d3a0fcf56dbd
+twitter_url:
+weibo_url: https://weibo.com/u/1937058700
+zhihu_url:
+facebook_url:
+linkedin_url:
+
+#copyright
+theme_url: https://github.com/Haojen/hexo-theme-Claudia
+theme: Haojen Ma
+copyright: MrMessy
+copyright_date: 2017
+copyright_url: https://github.com/MrMessy77
+power: hexo
+power_url: https://hexo.io/zh-cn
 
 # Content
 excerpt_link: Read More

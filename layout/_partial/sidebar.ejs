@@ -88,9 +88,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.twitter_username) { %>
+                <% if (theme.twitter_url) { %>
                 <li>
-                    <a target="_blank" href="https://twitter.com/<%= theme.twitter_username %>">
+                    <a target="_blank" href=<%= theme.twitter_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -99,9 +99,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.zhihu_username) { %>
+                <% if (theme.zhihu_url) { %>
                 <li>
-                    <a target="_blank" href="https://www.zhihu.com/people/<%= theme.zhihu_username %>">
+                    <a target="_blank" href=<%= theme.zhihu_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa  fa-stack-1x fa-inverse">知</i>
@@ -110,9 +110,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.weibo_username) { %>
+                <% if (theme.weibo_url) { %>
                 <li>
-                    <a target="_blank" href="http://weibo.com/<%= theme.weibo_username %>">
+                    <a target="_blank" href=<%= theme.weibo_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -121,9 +121,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.facebook_username) { %>
+                <% if (theme.facebook_url) { %>
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/<%= theme.facebook_username %>">
+                    <a target="_blank" href=<%= theme.facebook_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -132,9 +132,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.github_username) { %>
+                <% if (theme.github_url) { %>
                 <li>
-                    <a target="_blank" href="https://github.com/<%= theme.github_username %>">
+                    <a target="_blank" href=<%= theme.github_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -143,9 +143,9 @@
                 </li>
                 <% } %>
 
-                <% if (theme.linkedin_username) { %>
+                <% if (theme.linkedin_url) { %>
                 <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/<%= theme.linkedin_username %>">
+                    <a target="_blank" href=<%= theme.linkedin_url %>>
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -161,17 +161,17 @@
         <div class="site-box is-flex">
             <div class="flex-1 is-flex flex-column center full-height right-line">
                 <strong><%- site.posts.length || ''%></strong>
-                <p>Posts</p>
+                <p><%= __('post_number')%></p>
             </div>
             <div class="flex-1 is-flex flex-column center full-height">
                 <strong><%- site.tags.length || ''%></strong>
-                <p>Tags</p>
+                <p><%= __('tag_number')%></p>
             </div>
         </div>
     </div>
     <div id='tag_cloud' class="content-inner content-box">
         <div class="has-text-centered">
-            <strong>Tags</strong>
+            <strong><%= __('tag')%></strong>
         </div>
         <div class="content-inner is-flex flex-wrap justify-space-between">
             <% site.tags.map(function(tag){ %>
@@ -183,7 +183,7 @@
     </div>
     <div class="content-inner content-box">
         <div class="has-text-centered">
-            <strong>Categories</strong>
+            <strong><%= __('categories')%></strong>
         </div>
         <div class="content-inner">
             <%- list_categories(site.categories, {
@@ -193,7 +193,7 @@
     </div>
     <div class="content-inner content-box">
         <div class="has-text-centered">
-            <strong>Archives</strong>
+            <strong><%= __('archive')%></strong>
         </div>
         <div class="content-inner">
             <%- list_archives(site.archives,{}) %>

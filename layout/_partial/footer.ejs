@@ -15,11 +15,11 @@
     <div>
       <div>
         <!--请您保留作者署名, 主题制作来之不易-->
-        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        Theme by <a href=<%= theme.theme_url%>><%= theme.theme%></a>
         <br>
-        Copyright © <%= config.author || config.title %> <%= date(new Date(), 'YYYY') %>
+        Copyright © <a href=<%= theme.copyright_url%> target="_blank"><%= theme.copyright %></a> <%= theme.copyright_date%>
         <br>
-        <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Powered by <a href=<%= theme.power_url%> target="_blank"><%= theme.power%></a>
       </div>
     </div>
   </div>
