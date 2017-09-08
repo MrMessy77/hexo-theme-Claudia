@@ -9,7 +9,7 @@ rss: /atom.xml
 
 #个人信息
 user_name: 朱剑波
-user_avatar: https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-shadow-circle-512.png
+user_avatar: "/images/avatar.JPG"
 user_location: 常州
 user_description: "勿忘初心，心如止水"
 user_contact: mrmessy0626@gmail.com
