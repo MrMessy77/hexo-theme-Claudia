@@ -33,7 +33,7 @@
         <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
             <% for (var menu in theme.menu) { %>
             <a class="nav-item flex-1" href="<%- url_for(theme.menu[menu])%>">
-                <%- menu %>
+                <%- __(menu) %>
             </a>
             <% } %>
         </div>

@@ -18,7 +18,7 @@ user_introduction: "我是一位swift and js开发者，来自常州，一个身
 
 #社交信息
 github_url: https://github.com/MrMessy77
-jianshu_url: http://www.jianshu.com/u/d3a0fcf56dbd
+jianshu_url: https://www.jianshu.com/u/d3a0fcf56dbd
 twitter_url:
 weibo_url: https://weibo.com/u/1937058700
 zhihu_url:
@@ -41,5 +41,8 @@ livere_uid: MTAyMC8yOTE4Ni81NzUz
 use_disqus: false
 disqus_url: https://haojen.disqus.com/embed.js
 
-#统计分析
+#其他
+##谷歌统计
 google_analytics:
+##网站图标
+favicon: "/images/avatar.jpg"
