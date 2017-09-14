@@ -11,6 +11,11 @@
 
     .content h1{
         margin-bottom: 20px;
+        text-align: center;
+    }
+
+    strong{
+        font-size: 30px;
     }
 </style>
 <%
@@ -46,7 +51,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.twitter_url) { %>
+                        <% if (theme.twitter_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.twitter_url %>>
                                         <span class="fa-stack fa-lg">
@@ -57,7 +62,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.zhihu_url) { %>
+                        <% if (theme.zhihu_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.zhihu_url %>>
                                         <span class="fa-stack fa-lg">
@@ -68,7 +73,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.weibo_url) { %>
+                        <% if (theme.weibo_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.weibo_url %>>
                                         <span class="fa-stack fa-lg">
@@ -79,7 +84,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.facebook_url) { %>
+                        <% if (theme.facebook_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.facebook_url %>>
                                         <span class="fa-stack fa-lg">
@@ -101,7 +106,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.github_url) { %>
+                        <% if (theme.github_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.github_url %>>
                                         <span class="fa-stack fa-lg">
@@ -112,7 +117,7 @@
                         </li>
                         <% } %>
 
-                        <% if (config.linkedin_url) { %>
+                        <% if (theme.linkedin_url) { %>
                         <li>
                             <a target="_blank" href=<%= theme.linkedin_url %>>
                                         <span class="fa-stack fa-lg">
