@@ -11,10 +11,11 @@ rss: /atom.xml
 #个人信息
 user_name: 朱剑波
 user_avatar: "/images/avatar.jpg"
+user_intro_avatar:
 user_location: 常州
 user_description: "勿忘初心，心如止水"
 user_contact: mrmessy0626@gmail.com
-user_introduction: "swift,js开发者"
+user_introduction: "我是一位swift and js开发者，来自常州，一个身处江南水乡的二线城市。\n爱好：运动，lol，音乐。"
 
 #社交信息
 github_url: https://github.com/MrMessy77
@@ -33,34 +34,13 @@ copyright_url: https://github.com/MrMessy77
 power: hexo
 power_url: https://hexo.io/zh-cn
 
-# Content
-#excerpt_link: Read More
-#fancybox: true
-
-# display widgets at the bottom of index pages (pagination == 2)
-#index_widgets:
-# - category
-# - tagcloud
-# - archive
-
-# widget behavior
-#archive_type: 'monthly'
-#show_count: false
-
 #评论系统
-#livere:
+#livere账号:
 use_livere: true
 livere_uid: MTAyMC8yOTE4Ni81NzUz
-#disqus:
+#disqus账号:
 use_disqus: false
 disqus_url: https://haojen.disqus.com/embed.js
 
 #统计分析
 google_analytics:
-#favicon: /favicon.png
-#twitter:
-#google_plus:
-#fb_admins:
-#fb_app_id:
-
-

@@ -180,19 +180,8 @@
             </div>
         </div>
     </div>
-    <div id='tag_cloud' class="content-inner content-box">
-        <div class="has-text-centered">
-            <strong><%= __('tags')%></strong>
-        </div>
-        <div class="content-inner is-flex flex-wrap justify-space-between">
-            <% site.tags.map(function(tag){ %>
-                <a class="tags-item" href="<%= tag.path %>" title="<%= tag.name %>" rel="<%= tag.length %>">
-                    <%= tag.name %>
-                </a>
-            <% }) %>
-        </div>
-    </div>
     <div class="content-inner content-box">
+        <!-- 分类 -->
         <div class="has-text-centered">
             <strong><%= __('categories')%></strong>
         </div>
@@ -203,11 +192,25 @@
         </div>
     </div>
     <div class="content-inner content-box">
+        <!-- 归档 -->
         <div class="has-text-centered">
             <strong><%= __('archive')%></strong>
         </div>
         <div class="content-inner">
             <%- list_archives(site.archives,{}) %>
+        </div>
+    </div>
+    <div id='tag_cloud' class="content-inner content-box">
+        <!-- 标签 -->
+        <div class="has-text-centered">
+            <strong><%= __('tags')%></strong>
+        </div>
+        <div class="content-inner is-flex flex-wrap justify-space-between">
+            <% site.tags.map(function(tag){ %>
+                <a class="tags-item" href="<%= tag.path %>" title="<%= tag.name %>" rel="<%= tag.length %>">
+                    <%= tag.name %>
+                </a>
+            <% }) %>
         </div>
     </div>
 </aside>
