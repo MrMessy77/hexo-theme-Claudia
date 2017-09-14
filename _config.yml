@@ -3,7 +3,6 @@ menu:
   home: /
   #myWork: /works
   about: /about
-  #Tags: /tags
 
 #订阅
 rss: /atom.xml
