@@ -1,4 +1,8 @@
 blog: 's Blog
+home: Home
+myWork: MyWork
+about: About
+archive: Archive
 categories: Categories
 search: Search
 tags: Tags
@@ -6,6 +10,7 @@ tagcloud: Tag Cloud
 tweets: Tweets
 prev: Prev
 next: Next
+read_more: Read More
 comment: Comments
 archive_a: Archives
 archive_b: "Archives: %s"
@@ -14,7 +19,8 @@ recent_posts: Recent Posts
 newer: Newer
 older: Older
 share: Share
-powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+post_number: Posts
+tag_number: Tags
