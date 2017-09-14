@@ -2,7 +2,7 @@
 menu:
   home: /
   #myWork: /works
-  about: /about
+  about: /about/
 
 #订阅
 rss: /atom.xml
