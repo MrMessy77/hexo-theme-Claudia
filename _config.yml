@@ -39,7 +39,7 @@ use_livere: false
 livere_uid: MTAyMC8yOTE4Ni81NzUz
 #disqus账号:
 use_disqus: true
-disqus_url: https://mrmessy77.disqus.com/embed.js
+disqus_shortname: mrmessy77
 
 #其他
 ##谷歌统计

@@ -91,9 +91,10 @@
                      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                      };
                      */
+                    var disqus_shortname = "<%- theme.disqus_shortname%>";
                     (function() { // DON'T EDIT BELOW THIS LINE
                         var d = document, s = d.createElement('script');
-                        s.src = '<%- theme.disqus_url%>';
+                        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                         s.setAttribute('data-timestamp', +new Date());
                         (d.head || d.body).appendChild(s);
                     })();
