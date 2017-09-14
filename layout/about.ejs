@@ -40,9 +40,9 @@
                 </div>
                 <div>
                     <ul class="sns-container is-flex">
-                        <% if (config.RSS) { %>
+                        <% if (theme.rss) { %>
                         <li>
-                            <a href="<%= config.root + 'feed.xml' %>">
+                            <a href="<%= config.root + theme.rss %>">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
