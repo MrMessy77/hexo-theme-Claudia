@@ -5,11 +5,12 @@ menu:
   about: /about
   #Tags: /tags
 
+#订阅
 rss: /atom.xml
 
 #个人信息
 user_name: 朱剑波
-user_avatar: "/images/avatar.JPG"
+user_avatar: "/images/avatar.jpg"
 user_location: 常州
 user_description: "勿忘初心，心如止水"
 user_contact: mrmessy0626@gmail.com
@@ -33,8 +34,8 @@ power: hexo
 power_url: https://hexo.io/zh-cn
 
 # Content
-excerpt_link: Read More
-fancybox: true
+#excerpt_link: Read More
+#fancybox: true
 
 # display widgets at the bottom of index pages (pagination == 2)
 #index_widgets:
@@ -56,7 +57,7 @@ disqus_url: https://haojen.disqus.com/embed.js
 
 #统计分析
 google_analytics:
-favicon: /favicon.png
+#favicon: /favicon.png
 #twitter:
 #google_plus:
 #fb_admins:
