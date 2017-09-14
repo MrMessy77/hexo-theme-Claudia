@@ -45,4 +45,4 @@ disqus_url: https://haojen.disqus.com/embed.js
 ##谷歌统计
 google_analytics:
 ##网站图标
-favicon: "/images/avatar.jpg"
+favicon: /favicon.ico
