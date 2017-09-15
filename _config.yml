@@ -35,10 +35,10 @@ power_url: https://hexo.io/zh-cn
 
 #评论系统
 #livere账号:
-use_livere: false
-livere_uid: MTAyMC8yOTE4Ni81NzUz
+use_livere: true
+livere_uid: MTAyMC8zMDg5My83NDQy
 #disqus账号:
-use_disqus: true
+use_disqus: false
 disqus_shortname: mrmessy
 
 #其他
