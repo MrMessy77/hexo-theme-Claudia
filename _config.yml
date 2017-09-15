@@ -43,6 +43,6 @@ disqus_shortname: mrmessy77
 
 #其他
 ##谷歌统计
-google_analytics: UA-105680295-1
+google_analytics:
 ##网站图标
 favicon: /favicon.ico
