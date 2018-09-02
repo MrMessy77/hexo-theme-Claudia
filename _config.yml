@@ -11,14 +11,14 @@ rss: /atom.xml
 user_name: Messy Zhu
 user_avatar: "/images/avatar.jpg"
 user_intro_avatar:
-user_location: 常州
+user_location: 艾泽拉斯
 user_description: "勿忘初心，心如止水"
 user_contact: mrmessy0626@gmail.com
 user_introduction: "我是一位swift and js开发者，来自常州，一个身处江南水乡的二线城市。<br>爱好：运动，lol，音乐。"
 
 #社交信息
 github_url: https://github.com/MrMessy77
-jianshu_url: https://www.jianshu.com/u/d3a0fcf56dbd
+jianshu_url: https://weibo.com/u/6664918323
 twitter_url:
 weibo_url: https://weibo.com/u/1937058700
 zhihu_url:
